@@ -1,6 +1,6 @@
 [tool.poetry]
-name = "KhristinaR_brain_games"
-version = "0.1.0"
+name = "KHRISTINAR_brain_games"
+version = "0.1.4"
 description = ""
 authors = ["Khristina Rustanovich <khristina.analytics@gmail.com>"]
 packages = [
@@ -8,13 +8,13 @@ packages = [
   ]
 
 [tool.poetry.dependencies]
-python = "^2.7"
+python = "^3.6"
 
 [tool.poetry.dev-dependencies]
 
+[tool.poetry.scripts]
+brain-games = "brain_games.scripts.games:main"
 [build-system]
 requires = ["poetry>=0.12"]
 build-backend = "poetry.masonry.api"
 
-[tool.poetry.scripts]
-brain-games = "brain_games.scripts.brain_games:main"
