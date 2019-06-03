@@ -6,3 +6,6 @@ https://asciinema.org/a/dqIvS73wYq9MCHTOv2NLgnbca
 [![Maintainability](https://api.codeclimate.com/v1/badges/a99a88d28ad37a79dbf6/maintainability)](https://codeclimate.com/github/codeclimate/codeclimate/maintainability)
 
 [![Test Coverage](https://api.codeclimate.com/v1/badges/a99a88d28ad37a79dbf6/test_coverage)](https://codeclimate.com/github/codeclimate/codeclimate/test_coverage)
+
+**Travis**
+[![Build Status](https://travis-ci.com/KhristinaR/python-project-lvl1.svg?branch=master)](https://travis-ci.com/KhristinaR/python-project-lvl1)
