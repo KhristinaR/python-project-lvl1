@@ -7,8 +7,8 @@ python-versions = ">=3.3"
 version = "0.4.1"
 
 [metadata]
-content-hash = "a0c771ff70ba561a6a2f9c3f4077f5e048c94041f84b848b21802305be8bf8b5"
-python-versions = ">=3.3"
+content-hash = "a1fa5c59984f7ea2ca6bda35136985767ec0671ca35e9ccde0fa6937000a101e"
+python-versions = "^3.6"
 
 [metadata.hashes]
 prompt = ["8a7694b88f8c65188a983315e72582bf42fcc251b97042be1d2a2ad1aa0ebe0e", "98527de8dc3f0aa29669a39fbffeaf578ba6654dc836f737b6a5c6f9279002b7"]
