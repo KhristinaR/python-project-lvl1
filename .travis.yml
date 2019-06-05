@@ -3,6 +3,7 @@ python:
 - 3.6
 before_install:
 - pip install poetry
+- pip install flake8
 install:
 - poetry install
 script:
