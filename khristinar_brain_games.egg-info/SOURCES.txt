@@ -1,9 +1,16 @@
+README.md
 setup.py
 brain_games/__init__.py
+brain_games/__init__.pyc
 brain_games/scripts/__init__.py
+brain_games/scripts/__init__.pyc
 brain_games/scripts/brain_games.py
+brain_games/scripts/brain_games.pyc
+brain_games/scripts/cli.py
+brain_games/scripts/cli.pyc
 khristinar_brain_games.egg-info/PKG-INFO
 khristinar_brain_games.egg-info/SOURCES.txt
 khristinar_brain_games.egg-info/dependency_links.txt
 khristinar_brain_games.egg-info/entry_points.txt
+khristinar_brain_games.egg-info/requires.txt
 khristinar_brain_games.egg-info/top_level.txt
