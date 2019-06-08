@@ -1,5 +1,5 @@
-**Asciinema**
-https://asciinema.org/a/dqIvS73wYq9MCHTOv2NLgnbca
+**Step 1 Asciinema**
+[![asciicast](https://asciinema.org/a/dqIvS73wYq9MCHTOv2NLgnbca.svg)](https://asciinema.org/a/dqIvS73wYq9MCHTOv2NLgnbca)
 
 
 **Codeclimate**
@@ -9,3 +9,6 @@ https://asciinema.org/a/dqIvS73wYq9MCHTOv2NLgnbca
 
 **Travis**
 [![Build Status](https://travis-ci.com/KhristinaR/python-project-lvl1.svg?branch=master)](https://travis-ci.com/KhristinaR/python-project-lvl1)
+
+**Step 2 Asciinema**
+[![asciicast](https://asciinema.org/a/OVAmNtibt0v8jTAnpVhDRMeQM.svg)](https://asciinema.org/a/OVAmNtibt0v8jTAnpVhDRMeQM)
