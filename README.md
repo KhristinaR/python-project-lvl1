@@ -17,3 +17,6 @@
 **Step 5 Asciinema**
 
 [![asciicast](https://asciinema.org/a/uiJhzaRjlYEWPAbCUaSd5m8Z9.svg)](https://asciinema.org/a/uiJhzaRjlYEWPAbCUaSd5m8Z9)
+
+**Step 4 Asciinema**
+[![asciicast](https://asciinema.org/a/qs69O4QGqvl5uUTJIweEWcU42.svg)](https://asciinema.org/a/qs69O4QGqvl5uUTJIweEWcU42)
