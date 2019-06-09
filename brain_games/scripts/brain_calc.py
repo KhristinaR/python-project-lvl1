@@ -1,4 +1,4 @@
-from brain_games.games.games_func import welcome_text, greeting, even_questions as question_number, is_number_even, congrat_text
+from brain_games.games.games_func import welcome_text, greeting, calc_questions, operate_numbers, congrat_text
 import prompt
 
 
@@ -9,10 +9,12 @@ def main():
     print(greeting)
     i = 0
     while (i <= 2):
-       number = question_number()
-       question_text = "{} {} {}".format('Question:',number, '')
+       num_1 = calc_questions()[0]
+       num_2 = calc_questions()[2]
+       operator = calc_questions()[1]
+       question_text = "{} {} {} {} {}".format('Question:',num_1, operator, num_2, '')
        user_answer = prompt.string(question_text)
-       correct_answer = is_number_even(number)
+       correct_answer = operate_numbers(num_1, operator, num_2)
        if user_answer == correct_answer:
            print("Correct!")
            i = i + 1

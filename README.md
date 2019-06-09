@@ -10,5 +10,10 @@
 **Travis**
 [![Build Status](https://travis-ci.com/KhristinaR/python-project-lvl1.svg?branch=master)](https://travis-ci.com/KhristinaR/python-project-lvl1)
 
-**Step 2 Asciinema**
+**Step 4 Asciinema**
+
 [![asciicast](https://asciinema.org/a/OVAmNtibt0v8jTAnpVhDRMeQM.svg)](https://asciinema.org/a/OVAmNtibt0v8jTAnpVhDRMeQM)
+
+**Step 5 Asciinema**
+
+[![asciicast](https://asciinema.org/a/uiJhzaRjlYEWPAbCUaSd5m8Z9.svg)](https://asciinema.org/a/uiJhzaRjlYEWPAbCUaSd5m8Z9)
