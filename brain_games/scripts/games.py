@@ -6,3 +6,4 @@ def main():
 Answer 'yes' if number even otherwise answer 'no'.
 '''
     print(welcome_text)
+    run()

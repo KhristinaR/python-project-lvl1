@@ -1,22 +1,26 @@
 import prompt
 from brain_games.games.help_functions import welcome_text, congrat_text
-from brain_games.games.help_functions import is_number_even, random_values
+from brain_games.games.help_functions import progression_calc
 from brain_games.games.help_functions import error_text
 
 
 def main():
 
     welcome_text()
-    print('Answer "yes" if number even otherwise answer "no".')
+    print('What number is missing in the progression?')
     name = prompt.string('May I have your name? ')
     greeting = "{}, {}{}".format('Hello', name, '!')
     print(greeting)
     i = 0
+    progressions = progression_calc()
+    correct_answer = progressions[1]
+    progression = progressions[0]
     while (i <= 2):
-        number = random_values()[0]
-        question_text = "{} {} {}".format('Question:', number, '')
+        progressions = progression_calc()
+        correct_answer = progressions[1]
+        progression = progressions[0]
+        question_text = "{} {} {}".format('Question:', progression, '')
         user_answer = prompt.string(question_text)
-        correct_answer = is_number_even(number)
         if user_answer == correct_answer:
             print("Correct!")
             i = i + 1
