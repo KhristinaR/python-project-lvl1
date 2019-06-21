@@ -10,36 +10,40 @@ Brain Games
 [![Build Status](https://travis-ci.com/KhristinaR/python-project-lvl1.svg?branch=master)](https://travis-ci.com/KhristinaR/python-project-lvl1)
 
 
-**Step 1 Asciinema**
+**Welcome to the Brain Games**
+*Just a welcome message*
+
+[![asciicast](https://asciinema.org/a/K17fKnvNBPkiJRo3q4N4bqQ3k.svg)](https://asciinema.org/a/K17fKnvNBPkiJRo3q4N4bqQ3k)
 
 
-[![asciicast](https://asciinema.org/a/mNZSxmnwjcD70fCGXXj52QiVx.svg)](https://asciinema.org/a/mNZSxmnwjcD70fCGXXj52QiVx)
+**Brain Even**
+*Answer "yes" if number even otherwise answer "no".*
+
+[![asciicast](https://asciinema.org/a/i0wsn8AsoMmDIkptc1QisF6sy.svg)](https://asciinema.org/a/i0wsn8AsoMmDIkptc1QisF6sy)
 
 
-**Step 4 Asciinema**
+**Brain Calc**
+*What is the result of the expression?*
+
+[![asciicast](https://asciinema.org/a/vt64mzILBUvANkeMECcjnvhVZ.svg)](https://asciinema.org/a/vt64mzILBUvANkeMECcjnvhVZ)
 
 
-[![asciicast](https://asciinema.org/a/OVAmNtibt0v8jTAnpVhDRMeQM.svg)](https://asciinema.org/a/OVAmNtibt0v8jTAnpVhDRMeQM)
+**Brain GCD**
+*Find the greatest common divisor of given numbers.*
+
+[![asciicast](https://asciinema.org/a/OlMBuzLo6HclSIa8IkNNemZMl.svg)](https://asciinema.org/a/OlMBuzLo6HclSIa8IkNNemZMl)
 
 
-**Step 5 Asciinema**
+**Brain Prime**
+*Answer "yes" if given number is prime. Otherwise answer "no".*
+
+[![asciicast](https://asciinema.org/a/CmPapki1aPJcW91jtRcjq78Y6.svg)](https://asciinema.org/a/CmPapki1aPJcW91jtRcjq78Y6)
 
 
-[![asciicast](https://asciinema.org/a/uiJhzaRjlYEWPAbCUaSd5m8Z9.svg)](https://asciinema.org/a/uiJhzaRjlYEWPAbCUaSd5m8Z9)
+**Brain Progression**
+*What number is missing in the progression?*
+
+[![asciicast](https://asciinema.org/a/b6FTMqBnFebqFhsjecNnEKLPZ.svg)](https://asciinema.org/a/b6FTMqBnFebqFhsjecNnEKLPZ)
 
 
-**Step 6 Asciinema**
 
-
-[![asciicast](https://asciinema.org/a/qs69O4QGqvl5uUTJIweEWcU42.svg)](https://asciinema.org/a/qs69O4QGqvl5uUTJIweEWcU42)
-
-
-**Step 7 Asciinema**
-
-
-[![asciicast](https://asciinema.org/a/bZTWsfs1qMMFtYuVE8PEYfXeH.svg)](https://asciinema.org/a/bZTWsfs1qMMFtYuVE8PEYfXeH)
-
-
-**Step 8 Asciinema**
-
-[![asciicast](https://asciinema.org/a/LDwkE1khDmjNdSJQHtmw4UVkP.svg)](https://asciinema.org/a/LDwkE1khDmjNdSJQHtmw4UVkP)

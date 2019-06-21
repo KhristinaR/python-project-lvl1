@@ -1,27 +1,12 @@
-import prompt
-from brain_games.games.help_functions import welcome_text, congrat_text
-from brain_games.games.help_functions import is_number_even, random_values
-from brain_games.games.help_functions import error_text
+#!/usr/bin/env python3
+from brain_games.engine.game_engine import engine
+from brain_games.games import brain_even
 
 
 def main():
 
-    welcome_text()
-    print('Answer "yes" if number even otherwise answer "no".')
-    name = prompt.string('May I have your name? ')
-    greeting = "{}, {}{}".format('Hello', name, '!')
-    print(greeting)
-    i = 0
-    while (i <= 2):
-        number = random_values()[0]
-        question_text = "{} {} {}".format('Question:', number, '')
-        user_answer = prompt.string(question_text)
-        correct_answer = is_number_even(number)
-        if user_answer == correct_answer:
-            print("Correct!")
-            i = i + 1
-        else:
-            error_text(user_answer, correct_answer, name)
-            exit()
+    engine(brain_even)
 
-    congrat_text(name)
+
+if __name__ == '__main__':
+    main()
