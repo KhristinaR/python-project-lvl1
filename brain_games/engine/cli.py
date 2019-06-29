@@ -1,23 +1,20 @@
 def welcome():
-
     print('Welcome to the Brain Games!')
 
 
 def congrat(name):
+    print('Congratulations, {}!'.format(name))
 
-    print('{}, {}{}'.format('Congratulations', name, '!'))
 
-
-def error(user_answer, correct_answer, name):
-
-    str_1 = "is wrong answer ;(. Correct answer was "
-    str_2 = "{}, {}!".format("Let's try again", name)
-    error_text = "{} {}{}.".format(user_answer, str_1, correct_answer)
+def show_error(user_answer, correct_answer, name):
+    try_again_text = "Let's try again, {}!".format(name)
+    wrong_text = " is wrong answer ;(. Correct answer was "
+    error_text = "{}{}{}.".format(user_answer, wrong_text, correct_answer)
+    try_again_text = "{}, {}!".format("Let's try again", name)
     print(error_text)
-    print(str_2)
+    print(try_again_text)
 
 
-def greeting(name):
-
+def greet(name):
     result = "{}, {}{}".format('Hello', name, '!')
     print(result)

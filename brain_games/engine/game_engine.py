@@ -1,22 +1,21 @@
-from brain_games.engine.cli import welcome, greeting, error, congrat
+from brain_games.engine.cli import welcome, greet, show_error, congrat
 import prompt
 
 
 def engine(game):
-
     welcome()
     print(game.INSTRUCTION)
     name = prompt.string('May I have your name? ')
-    greeting(name)
-    i = 0
-    while (i <= 2):
-        (question, correct_answer) = game.question()
+    greet(name)
+    rounds = 3
+    while rounds:
+        (question, correct_answer) = game.generate_question()
         user_answer = prompt.string(question)
         if user_answer == correct_answer:
             print("Correct!")
-            i = i + 1
+            rounds = rounds - 1
         else:
-            error(user_answer, correct_answer, name)
+            show_error(user_answer, correct_answer, name)
             exit()
 
     congrat(name)

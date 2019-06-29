@@ -1,22 +1,21 @@
 import random
-
+import math
 
 INSTRUCTION = 'Answer "yes" if given number is prime. Otherwise answer "no".'
 
 
 def get_answer(num):
-
-    i = 2
-    while(i < num):
-        if num % i == 0:
+    divisor = 2
+    while divisor <= math.sqrt(num):
+        if num % divisor:
+            divisor = divisor + 1
+        else:
             return 'no'
-        i = i + 1
-    return 'yes'
+    return "yes"
 
 
-def question():
-
+def generate_question():
     num = random.randint(1, 100)
-    question = "{} {} {}".format('Question:', num, '')
+    question = "{} {} ".format('Question:', num)
     correct_answer = get_answer(num)
     return (question, correct_answer)

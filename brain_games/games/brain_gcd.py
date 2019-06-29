@@ -4,21 +4,19 @@ import random
 INSTRUCTION = 'Find the greatest common divisor of given numbers.'
 
 
-def get_answer(num_1, num_2):
-
-    while num_1 != 0 and num_2 != 0:
-        if num_1 > num_2:
-            num_1 %= num_2
+def get_answer(num1, num2):
+    while num1 and num2:
+        if num1 > num2:
+            num1 %= num2
         else:
-            num_2 %= num_1
-    result = num_1 + num_2
+            num2 %= num1
+    result = num1 + num2
     return str(result)
 
 
-def question():
-
-    num_1 = random.randint(1, 100)
-    num_2 = random.randint(1, 100)
-    question = "{} {} {} {}".format('Question:', num_1, num_2, '')
-    correct_answer = get_answer(num_1, num_2)
+def generate_question():
+    num1 = random.randint(1, 100)
+    num2 = random.randint(1, 100)
+    question = "{} {} {} ".format('Question:', num1, num2)
+    correct_answer = get_answer(num1, num2)
     return (question, correct_answer)

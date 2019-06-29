@@ -3,7 +3,6 @@ from brain_games.games.brain_games import demo
 
 
 def main():
-
     demo()
 
 
