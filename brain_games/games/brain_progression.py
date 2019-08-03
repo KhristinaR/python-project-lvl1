@@ -10,14 +10,17 @@ def generate_question():
     counter = 0
     progression = ''
     random_step = random.randint(0, 9)
+    chunk = ''
     while counter <= 11:
+        chunk = ''
         if counter == random_step:
-            progression = progression + ' ..'
+            chunk = '..'
             correct_answer = str(random_number)
         else:
-            progression = progression + ' ' + str(random_number)
+            chunk = str(random_number)
+        progression += ' ' + chunk
         random_number = random_number + step
         counter = counter + 1
-    question = "{} {} ".format('Question:', progression.lstrip())
+    question = "Question: {}".format(progression.lstrip())
     results = (question, correct_answer)
     return results

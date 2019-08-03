@@ -10,7 +10,7 @@ def engine(game):
     rounds = 3
     while rounds:
         (question, correct_answer) = game.generate_question()
-        user_answer = prompt.string(question)
+        user_answer = prompt.string('{} '.format(question))
         if user_answer == correct_answer:
             print("Correct!")
             rounds = rounds - 1
