@@ -12,7 +12,6 @@ def generate_question():
     random_step = random.randint(0, 9)
     chunk = ''
     while counter <= 11:
-        chunk = ''
         if counter == random_step:
             chunk = '..'
             correct_answer = str(random_number)
